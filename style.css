@@ -95,3 +95,45 @@ h1 {
 p {
   font-size: 19.2px; 
 }
+
+.delivery-option {
+  margin-bottom: 18px;
+  text-align: center;
+  font-size: 18px;
+  color: #5c3118;
+}
+
+.delivery-option label {
+  background: #fff8f0;
+  border: 2px solid #d63600;
+  border-radius: 8px;
+  padding: 10px 18px;
+  display: inline-block;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.delivery-option label:hover {
+  background: #fdf4e9;
+}
+
+.size-option {
+  margin-bottom: 18px;
+  text-align: center;
+  font-size: 18px;
+  color: #5c3118;
+}
+
+.size-option label {
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.size-option select {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 2px solid #d63600;
+  font-size: 16px;
+  background: #fff8f0;
+  color: #5c3118;
+}
